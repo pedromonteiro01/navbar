@@ -4,50 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-    crossorigin="anonymous"
-  />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="navbar.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>Group Classes</title>
+    <link rel="stylesheet" href="css/classes.css">
 </head>
 <body>
-    <nav class='navbar'>
-        <div class='navbar-container'>
-          <a href='' class='navbar-logo'>
-            beStrong
-            <i class="fas fa-dumbbell"></i>
-          </a>
-          <div class='menu-icon' onClick={handleClick}>
-            <i class=fas fa-times' ></i>
-          </div>
-          <ul class='nav-menu active'>
-            <li class='nav-item'>
-              <a href="index.html" class='nav-links'>
-                Home
-              </a>
-            </li>
-            <li class='nav-item'>
-              <a href=''class='nav-links'>Services</a>
-            </li>
-            <li class='nav-item'>
-              <a href='classes.html'class='nav-links'>Classes</a>
-            </li>
-    
-            <li>
-              <a href='' class='nav-links-mobile'>Sign Up</a>
-            </li>
-          </ul>
-          <div class="btn-mobile">
-            <button class="btn btn--medium btn--outline">SIGN UP</button>
-          </div>
-        </div>
-      </nav>
-    
+      <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Group Classes</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/bycicle.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cycling</h5>
+                          <p class="card-text">Uma das atividades mais praticadas nos ginásios de todo o mundo.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/zumba.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Zumba</h5>
+                          <p class="card-text">O zumba mescla movimentos de danças latinas com exercícios de treino cardiovascular. </p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/crossfit.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Crossfit</h5>
+                          <p class="card-text">O Crossfit é um programa de treino de força e condicionamento físico com movimentos funcionais.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/yoga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yoga</h5>
+                          <p class="card-text">A prática de Yoga dá-te equilíbrio, força e uma sensação de bem-estar.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/pilates.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pilate</h5>
+                          <p class="card-text">Aula excelente para reabilitação e aprendizagem postural.<br><br></p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/bodypump.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Body Pump</h5>
+                          <p class="card-text">A aula de Body Pump reforça e tonifica todos os principais grupos musculares.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/circuit.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Circuit</h5>
+                          <p class="card-text">Conjunto de exercícios para trabalhar a resistência muscular, força e coordenação motora.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/trx.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">TRX</h5>
+                          <p class="card-text">A aula TRX combina vários exercícios de resistência, que te vão dar uma dose extra de energia.</p>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
 </body>
 </html>
